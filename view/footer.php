@@ -17,7 +17,8 @@
 <script>
 
   $(document).ready(function($){
-    $('#preco').maskMoney();
+    $('#preco').maskMoney({prefix:'R$ ', allowNegative: false, thousands:'.', decimal:',', affixesStay: false});
+    $('.preco').maskMoney({prefix:'R$ ', allowNegative: false, thousands:'.', decimal:',', affixesStay: false});
 
   })
 
@@ -43,8 +44,11 @@
 
 
 
-    include('controller/datatable-grid.js');
-    include('controller/datatable-pedido.js');
+    include('controller/datatable_grid.js');
+    include('controller/datatable_pedido.js');
+    include('controller/card_list_pedido.js');
+    include('controller/datatable_precos.js');
+    include('controller/datatable_cards.js');
 
 ?>
 

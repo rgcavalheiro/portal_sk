@@ -59,7 +59,7 @@ if($row['tem_img'] > 0){
 
 	$sub_array[] = $img;
   	
-	$sub_array[] = '<a href="javascript:void();" data-id="'.$row['id'].'" data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-info btn-sm gerausbtn" >Editar</a>  <a href="javascript:void();" data-id="'.$row['id'].'" class="btn btn-danger btn-sm deleteBtn" >Deletar</a>';
+	// $sub_array[] = '<a href="javascript:void();" data-id="'.$row['id'].'" data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-info btn-sm gerausbtn" >Editar</a>  <a href="javascript:void();" data-id="'.$row['id'].'" class="btn btn-danger btn-sm deleteBtn" >Deletar</a>';
 	$data[] = $sub_array;
 }
 

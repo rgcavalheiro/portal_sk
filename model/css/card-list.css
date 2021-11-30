@@ -1,0 +1,122 @@
+
+
+
+.h5, h5 {
+    font-size: 1rem;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+h5.descprod {
+    min-height: 38px;
+}
+
+
+
+.wrapper {
+    margin-top: 30px
+}
+
+
+
+.pagination>li>a, .pagination>li>span {
+   border-radius: 50% !important;
+   margin: 0 5px;
+}
+
+.pagination>li.active>a ,.btn-next, .btn-last, .btn-first, .btn-last{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: 0 0;
+    border-radius: 50% !important;
+    margin: 0 5px;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+
+    
+    text-decoration: none;
+    border: 1px solid #ddd;
+    z-index: 2;
+    color: #fff;
+
+    background-color: #428bca;
+    border-color: #428bca;
+
+}
+.pagination>li.active>a:hover{
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: 0 0;
+    outline: 0;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 50% !important;
+    margin: 0 5px;
+    z-index: 2;
+    color: #fff;
+
+    background-color: #428bca;
+    border-color: #428bca;
+
+}
+
+.pagination>li>a{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: 0 0;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    color: #428bca;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50% !important;
+    margin: 0 5px;
+}
+
+.pagination>li>a:hover{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: 0 0;
+    outline: 0;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 50% !important;
+    margin: 0 5px;
+    color: #2a6496;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+
+

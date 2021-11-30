@@ -17,7 +17,7 @@
                                     <th width="100px">Local</th>
                                     <th width="100px">CodVol</th>
                                     <th width="100px">Img</th>
-                                    <th width="100px"></th>
+                                    
                                 </tr>
                             </thead>
                             <tbody>

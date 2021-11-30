@@ -19,13 +19,17 @@ if(isset($_SESSION['itens_pedido'])){
 
 		$sub_array[] = $row['id'];
 
-		if($produto['tem_img'] == 1){
-			$sub_array[] = 'img';
+		if($produto['tem_img'] == 1){			
+
+			$sub_array[] = '<img src="'. BASEURL.'/view/images/'.$row['codprod'].'.dbimage"  width="42" height="42">';
+
 		}else{
+			
 			$sub_array[] = 'sem img';
+
 		}
 
-		$sub_array[] = $produto['descprod'];
+		$sub_array[] = utf8_decode($produto['descprod']);
 		
 
 
